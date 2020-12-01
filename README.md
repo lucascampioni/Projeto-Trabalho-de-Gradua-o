@@ -4,6 +4,11 @@
 
 ### 1. INTRODUÇÃO
 Nos dias atuais as filas dos restaurantes tem se tornado cada vez maiores, principalmente nos finais de semana e feriados, onde muitas pessoas acabam desistindo ou deixando de comemorar alguma data especial em razão do tempo em que passam aguardando um lugar junto a mesa. Partindo do princípio de que tempo é dinheiro, esse problema acaba causando prejuízos diários para inúmeros restaurantes.
+
+<h1 align="center">
+<img alt="Gobarber" src="./img/fila.png" />
+</h1>
+
 Outra agravante do problema é a necessidade de manter um distanciamento social em razão da pandemia do novo Corona Vírus. Em lugares menos amplos foi necessário a retirada de algumas mesas para fazer jus ao distanciamento, porém os consumidores não deixaram de frequentar seus lugares favoritos, por essa razão as filas aumentaram, e consequentemente, o tempo de espera também, com menos mesas, há também menos pessoas que podem ficar no ambiente ao mesmo tempo, isso faz com que muitas pessoas se aglomerem na entrada do restaurante, aguardando alguém sair para liberar um lugar. O distanciamento social é respeitado no interior do local, mas do lado de fora acaba sendo muitas pessoas em um espaço pequeno, todas aguardando um longo período apenas para um jantar.
 Além da aglomeração na fila de entrada, há que se falar no contato com os atendentes, garçons, filas para efetuar o pagamento, e assim por diante. Isso é um problema tanto atual, quanto ao longo prazo, daqui alguns anos, as pessoas ainda não irão querer voltar a ter tanto contato com desconhecidos assim como era em tempos “normais”.
 
