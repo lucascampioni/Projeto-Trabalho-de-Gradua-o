@@ -30,9 +30,13 @@ Este capítulo apresenta temas necessários para compreensão deste trabalho em 
 #### 2.2.	Tecnologias utilizadas
 Para o desenvolvimento desta aplicação foram escolhidas x tecnologias e seus recursos como:
 
-•	
+#### 2.2.1.	MySQL
+Devido a escalabilidade, flexibilidade, confiabilidade sólida e constante disponibilidade que o servidor de banco de dados MySQL fornece foi feita a utilização deste SGBD (Sistema de Gerenciamento de Banco de Dados) além de sua alta velocidade de carga, caches de memória distintos, índices de texto completo, e outros mecanismos que satisfaz as expectativas de desempenho exigidas nos requisitos.
 
-#### 2.2.1.	Tec X
+#### 2.2.1.	Javascript
+É uma linguagem especifica que é bastante resposiva, o que envolve bastante outras tecnlogias que poderão entrar futuramente no projeto.
+
+Também, o SGBD possui o código-fonte open source e gratuito, possuindo uma grande comunidade envolvida na busca de soluções e melhorias
 
 #### 2.3.	Soluções Existentes
 
