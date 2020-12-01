@@ -66,8 +66,12 @@ O desenvolvimento da aplicação em Reactive Native será a partir de componente
 
 A arquitetura do projeto, envolve a ligação do dispositivo mobile conectando ao nodejs, através de algumas APIs, fazendo contato assim com o banco de dados:
 
-### REFERÊNCIAS
+<h1 align="center">
+<img alt="Gobarber" src="./img/Imagem Arquitetura.png" />
+</h1>
 
+
+### REFERÊNCIAS
 
 Tecnoblog. <b>5 aplicativos para fazer reserva em restaurantes no Brasil.</b> Disponível em https://tecnoblog.net/272057/aplicativos-reserva-em-restaurantes/ Acesso em: 25/10/2020.
 
