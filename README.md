@@ -24,43 +24,47 @@ O Capítulo 5 apresenta as considerações finais deste trabalho a partir da an�
 Este capítulo apresenta temas necessários para compreensão deste trabalho em seu desenvolvimento: 
 
 #### 2.1. Levantamento de Requisitos
-
-
+A aplicação deverá permitir dois tipos de cadastros, o primeiro se refere a pessoas que estão à procura de restaurantes sem filas; o segundo a donos desses locais.
+No caso de um cliente, precisamos criar uma conta e informar dados como nome, sobrenome, cpf, e-mail, telefone, senha, e aceitar que o dispositivo colete sua localização, para poder visualizar os restaurantes com todos os dados que acompanha. 
 
 #### 2.2.	Tecnologias utilizadas
 Para o desenvolvimento desta aplicação foram escolhidas x tecnologias e seus recursos como:
 
-#### 2.2.1.	MySQL
+#### 2.2.1.	Postgree
 Devido a escalabilidade, flexibilidade, confiabilidade sólida e constante disponibilidade que o servidor de banco de dados MySQL fornece foi feita a utilização deste SGBD (Sistema de Gerenciamento de Banco de Dados) além de sua alta velocidade de carga, caches de memória distintos, índices de texto completo, e outros mecanismos que satisfaz as expectativas de desempenho exigidas nos requisitos.
 
-#### 2.2.1.	Javascript
+#### 2.2.2.	Javascript
 É uma linguagem especifica que é bastante resposiva, o que envolve bastante outras tecnlogias que poderão entrar futuramente no projeto.
 
 Também, o SGBD possui o código-fonte open source e gratuito, possuindo uma grande comunidade envolvida na busca de soluções e melhorias
+
+#### 2.2.3. React Native
+Para o front-end a tecnologia escolhida foi o React Native baseado na biblioteca React, na qual consiste em uma série de ferramentas para o desenvolvimento de aplicações móvel multiplataforma utilizando apenas Javascript. Sua principal vantagem consiste em que todo código desenvolvido com a tecnologia é convertido para linguagem nativa do sistema operacional possibilitando o desenvolvimento da aplicação tanto para Android como iOS utilizando apenas um código fonte.
+
+#### 2.2.1.	Tecnlogias Devops
+Tecnlogias relacionadas aos seguintes assuntos:
+Gerencimento de projetos;
+Versionador de código;
+Tecnologias para update em nuvem.
 
 #### 2.3.	Soluções Existentes
 
 #### 2.3.1.	App Ifood
 Hoje em dia, esse aplicativo é o maior do mundo no ramo de delivery, possuindo um sistema bastante intuitivo no qual podemos realizar pedidos e pagamentos tudo através do celular, o que é algo bastante inovador e tem muito haver com nossa ideia.
 
-#### 2.3.1.	App TheFork
+#### 2.3.2.	App TheFork
 É um dos Apps com mais restaurantes cadastrados em todos cantos do mundo, tendo como foco a reserva de restaurantes. O aplicativos disponibiliza diversas promoções para usuários ativos, que são recompensados conforme utilizam.
 
-#### 2.3.1.	App Restorando
+#### 2.3.3.	App Restorando
 O Restorando é bastante similar ao TheFork, mas conta com o feedback dos usuários para fazer recomendações melhores. Ele lista os estabelecimentos próximos e permite a busca por endereço ou cozinha, exibe os preços dos pratos, lista promoções e permite que o cliente faça uma reserva nos restaurantes de forma simples e prática.
 
 ### 3. DESENVOLVIMENTO
 
-Neste capítulo deve ser abordado a metodologia e o enfoque experimental utilizados no trabalho. O título DESENVOLVIMENTO é  OBRIGATÓRIO, podendo os subtítulos  serem modificados pelo(s) autor(es) de acordo com o trabalho que está sendo desenvolvido, com uma abordagem tecnológica ou científica. 
-Em relação a formatação, deve seguir o padrão das instruções apresentadas ao final deste documento.
+O desenvolvimento da aplicação em Reactive Native será a partir de componentes de código com APIs nativas no modelo de Single Page Applications (SPA). Permitindo a alteração de conteúdo sem a necessidade do carregamento de uma visualização por completo, mas sim apenas o conteúdo diferente havendo uma comunicação entre componentes direcionados para iOS ou Android. Através de dependências é realizado de forma nativa a interpretação do JavaScript React da aplicação, assim permitindo que o smartphone consiga interpretar e executar JavaScript da mesma forma que Java/Kotlin ou Objective-C/Swift, dependendo da plataforma.
 
 #### 3.1. Arquitetura do Sistema
 
-Esse subtítulo e conteúdo  é obrigatório.....
-
-#### 3.2. Título 3.2
-
-Texto.....
+A arquitetura do projeto, envolve a ligação do dispositivo mobile conectando ao nodejs, através de algumas APIs, fazendo contato assim com o banco de dados:
 
 ### REFERÊNCIAS
 
